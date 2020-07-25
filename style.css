@@ -1,0 +1,96 @@
+body{
+    background-image: linear-gradient(to right, #9871db 30%,#6285F6);
+}
+#main{
+    margin-top: 50px !important;
+    padding: 0px;
+    margin: auto;
+    border: 1px solid #b3b3b3 ;
+    width: 350px;
+    background-image: url(a.jpg);
+    background-size: 100% 45%;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    background-color:white ;
+    text-align: center !important;
+    border-radius: 10px;  
+    overflow: hidden;
+}
+#sayl{
+   width: 100%;
+}
+#h3class{
+   margin-top: 40px;
+   font-size: 25px;
+   font-weight: bold;
+   color:#f1718d;
+   margin-bottom: 30px;
+   font-family: 'Poppins', sans-serif;
+}
+#todoadd{
+    width: 90%;
+    height: 30px;
+    text-align: center !important;
+    font-size: 18px;
+    font-weight: 200;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #6285F6 !important;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+.btnclass{
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    outline: none;
+    margin-bottom: 20px;
+    color: white;
+}
+.btnclass:hover{
+    color: rgb(173, 173, 173);
+}
+.btnclass:active{
+    color: #6285F6;
+}
+#list{
+    list-style: none;
+    padding: 0;
+}
+#list li{
+    padding: 5px 0;
+    width: 90% !important;
+    margin:10px auto !important;
+    text-align: center;
+    border-left: #6285F6 4px solid;
+    border-right: #9871db 4px solid;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color:white;
+    box-shadow: 5px 5px 20px 3px #888888;
+}
+.addli{
+    width: 15%;
+    display: inline-block;
+    font-size: 30px;
+}
+.trashli{
+    width: 15%;
+    display: inline-block;
+    font-size: 30px;
+}
+.pera{
+    width: 65%;
+    display: inline-block;
+    margin: 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px !important;
+    text-align: center !important;
+    overflow: hidden;
+}
+.animate__animated{
+    animation-delay: 0.1s;
+    --animate-duration: 1s;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,600;1,400&family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <title>Todo Application</title>
+</head>
+
+<body>
+    <div id="main">
+        <div id="sayl">
+            <h3 id="h3class">Todo Application</h3>
+        </div>
+        <div>
+            <input type="text" id="todoadd" placeholder="Enter What Todo?">
+            <button class="btnclass" onclick="addLi()"><i class="fas fa-plus-circle"></i> Add</button>
+            <button class="btnclass" onclick="delAll()"><i class="fas fa-trash-alt"></i> Delete All</button>
+        </div>
+        <div>
+            <ul id="list">
+
+            </ul>
+        </div>
+    </div>
+</body>
+
+
+
+<script src="app.js"></script>
+</html>
